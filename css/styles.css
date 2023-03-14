@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(29, 29, 29);
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: whitesmoke;
+}
+
+#result {
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 310px;
+    border: none;
+    border-radius: 3px;
+    text-align: right;
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+
+input[type="button"] {
+    width: 70px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    border: none;
+}
+
+input:active[type="button"] {
+    background-color: rgb(52, 149, 171);
+}
